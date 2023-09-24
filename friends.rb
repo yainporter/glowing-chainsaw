@@ -6,3 +6,8 @@ random_numbers.each do |num|
     end
 end
 
+random_numbers.each do |num|
+    if num < 60
+        puts num
+    end
+end
